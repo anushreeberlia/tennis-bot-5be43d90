@@ -1,0 +1,16 @@
+{
+  "name": "sf-tennis-monitor-server",
+  "version": "1.0.0",
+  "description": "Tennis court monitoring backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^21.5.2",
+    "expo-server-sdk": "^3.7.0",
+    "cors": "^2.8.5"
+  }
+}
